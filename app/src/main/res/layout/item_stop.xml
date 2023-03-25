@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="5"
+    >
+
+
+    <TextView
+        android:id="@+id/StopNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="28dp"
+        android:padding="8dp"
+        tools:text="Test"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/StopSwitch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:layout_gravity="center_vertical"
+        app:switchMinWidth="60dp"/>
+
+    <ImageButton
+        android:id="@+id/StopRemoveButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:scaleType="fitCenter"
+        app:tint="@color/purple"
+        android:gravity="center"
+        android:src="@drawable/ic_trashcan"/>
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/NewStopDialogNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_stop_hint_name"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/NewStopDialogIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_stop_hint_id"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="" />
+
+</LinearLayout>

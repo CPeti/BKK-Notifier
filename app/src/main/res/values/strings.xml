@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BKK Notifier</string>
+    <string name="new_stop_hint">Stop</string>
+    <string name="new_Stop">New stop</string>
+    <string name="new_Alert">New alert</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="stop">Departures from %s</string>
+    <string name="alert">%d minutes before %s arrives</string>
+    <string name="alert_notif">%s arrives in %d minutes!</string>
+    <string name="time">%s min.</string>
+    <string name="main">Departures</string>
+    <string name="details">Alerts</string>
+    <string name="new_alert_hint">Alert</string>
+    <string name="new_alert_hint_shortname">Route number</string>
+    <string name="new_alert_hint_time">Minutes before arrival</string>
+    <string name="alert_title">ALERT</string>
+    <string name="new_stop_hint_name">Stop name</string>
+    <string name="new_stop_hint_id">Stop ID</string>
+    <string name="duplicate_id">You already have a stop with the same ID!</string>
+    <string name="invalid_form">You must fill all the fields!</string>
+</resources>
